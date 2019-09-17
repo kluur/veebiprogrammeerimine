@@ -4,9 +4,22 @@
   $hourNow = date("H");
   $partOfDay = "hägune aeg";
   
-  if($hourNow < 8){
+  if($hourNow < 10 and $hourNow > 7){
 	$partOfDay = "hommik";  
   }
+  if($hourNow > 10 and $hourNow < 12){
+	$partOfDay = "ennelõuna";
+  }
+  if($hourNow > 12 and $hourNow < 16){
+	$partOfDay = "pärastlõuna";
+  }
+  if($hourNow < 22 and $hourNow > 16){
+	$partOfDay = "õhtu";
+  }
+  if($hourNow > 22 and $hourNow < 7){
+	$partOfDay = "öö";
+  }
+  
 ?>
 <!DOCTYPE html>
 <html lang="et">
