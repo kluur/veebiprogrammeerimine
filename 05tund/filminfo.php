@@ -2,7 +2,7 @@
   require("../../../config_vp2019.php");
   require("functions_film.php");
   $userName = "Kristjan Luur";
-  $database = "film";
+  $database = "if19_kristjan_lu_1";
   
   $filmInfoHTML = readAllFilms();
 	
