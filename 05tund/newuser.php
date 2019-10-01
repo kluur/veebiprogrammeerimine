@@ -42,7 +42,7 @@
 	  } //eesnime kontroll
 	  
 	  //perekonnanimi
-	  $surname = test_input($_POST["lastName"]);
+	  $surname = test_input($_POST["surName"]);
 	  
 	  //sugu
 	  $gender = test_input($_POST["gender"]);
